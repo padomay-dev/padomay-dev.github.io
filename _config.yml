@@ -90,7 +90,9 @@ analytics:
     tracking_id          : "UA-169187352-1"
     anonymize_ip         : # true, false (default)
 
-
+excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
+header:
+  overlay_color: "#333"
 # Site Author
 author:
   name             : "김준수(Kim Joon Su)"
