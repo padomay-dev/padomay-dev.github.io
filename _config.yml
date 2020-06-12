@@ -13,7 +13,12 @@
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
+ignore_theme_config: true
+minima:
+  social_links:
+    mastodon:
+      - username: myusernamehere
+        instance: mastodon.social
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Padomay-dev blog"
