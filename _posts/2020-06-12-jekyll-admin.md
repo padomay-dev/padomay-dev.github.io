@@ -1,6 +1,9 @@
 ---
 title: JEKYLL-ADMIN 설치 및 오류 수정
 toc: true
+tags:
+- jekyll
+- minimal-mistakes
 ---
 
 # jekyll-admin 설치
