@@ -10,17 +10,17 @@ tags:
 JEKYLL를 설치하고 포스팅을 할려는데 그냥 마크다운으로 포스팅을 하기에는 힘들어서 쉽게 포스팅을 할 수 있는 방법을 찾아보았다.   
 그 중 jekyll-admin을 설치하면 쉽게 포스팅을 할 수 있다는 것을 알게 되어 공유한다.
 
-### 1.Gemfile에 다음을 추가하자
+## 1. Gemfile에 다음을 추가하자
 ```
 gem 'jekyll-admin', group: :jekyll_plugins
 ```
-### 2. 그 다음엔 다음 명령어를 치면 된다.
+## 2.  그 다음엔 다음 명령어를 치면 된다.
 ```
 bundle
 jekyll serve
 ```
 
-### 3. 적용확인
+## 3. 적용확인
 적용을 확인해보자 [http://localhost:4000/admin](http://localhost:4000/admin)
 
 ![](/assets/images/jekyll-admin.PNG)
@@ -31,16 +31,16 @@ jekyll serve
 
 알고보니 이번에 버전업을 하면서 생긴 버그였다.  수정 방법은 다음과 같다.
 
-### 1. _config.yml 에 다음을 추가하자
+## 1. _config.yml 에 다음을 추가하자
 
 ```
 ignore_theme_config: true
 ```
-### 2. bundle 업데이터
+## 2. bundle 업데이터
 ```
 bundle
 jekyll serve
 ```
 
-### 3. 적용확인
+## 3. 적용확인
 적용을 확인해보자 [http://localhost:4000/admin](http://localhost:4000/admin)

@@ -24,7 +24,7 @@ locale                   : "ko-KR"
 title                    : "Padomay-dev blog"
 title_separator          : "취미코딩"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "김준수(Kim Joon Su)"
+name                     : "padomay"
 description              : "An amazing website."
 url                      : "https://padomay-dev.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -100,7 +100,7 @@ header:
   overlay_color: "#333"
 # Site Author
 author:
-  name             : "김준수(Kim Joon Su)"
+  name             : "padomay"
   avatar           : "/assets/images/padomay.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "집에서 취미개발"
   location         : "South Korea"
