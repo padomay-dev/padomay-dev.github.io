@@ -4,6 +4,8 @@ toc: true
 tags:
 - jekyll
 - minimal-mistakes
+categories:
+- jekyll
 ---
 
 # jekyll-admin 설치
